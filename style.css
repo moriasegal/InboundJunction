@@ -1,0 +1,637 @@
+:root {
+  --black: #000000;
+  --greyish-brown: #464646;
+  --bluey-purple: #623bbb;
+  --white: #ffffff;
+  --azure: #00a9ff;
+  --sapphire: #3023AE;
+  --lavender-pink: #c86dd7;
+}
+
+
+@media  screen and (min-width: 769px){
+	
+	#bodyContainer{
+		align-items:center;
+	}
+	
+	#bodyContainer2{
+		width: 1200px;
+	}
+	
+	#bodyContainer1, #bodyContainer3{
+		width: 371px;
+	}
+	
+	/* header */
+	
+	#headerContainer main{
+		flex-direction: row;
+		margin: 42px 111px 119px 371px;
+	}
+	
+	#headerContainer .background:nth-child(1){
+		background-image: url("img/svg/path-2.svg");
+		top:0px;
+		left:0px;
+		width: 976px;
+		height: 1080px;
+	}
+	
+	#headerContainer .background:nth-child(2){
+		background-image: url("img/svg/path-2-copy.svg");
+		top:0px;
+		right:0px;
+		width: 704px;
+		height: 779px;
+	}
+
+	.companyName {
+		font-size: 36px;
+	}
+
+
+	.menu {
+		display:none;
+	}
+	
+	/* homeContainer */
+	
+	#homeContainer{
+		position: relative;
+		z-index: 2;
+	}
+	
+	.cryptoWorld{
+		font-size: 144px;
+		margin-bottom: 55px;
+	}
+	
+	
+	.inputGroupSearch{
+		margin-bottom:81px;
+	}
+	
+	#homeContainer .paragraph{
+	  font-size:24px;
+	}
+	
+	/* pageNavContainer */
+	
+	#pageNavContainer nav{
+		height:180px;
+		flex-direction: column;
+		margin-left: 240px;
+	}
+	
+	/* aboutContainer */
+	
+	#aboutContainer > main{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 1185px;
+		width: 100%;
+	}
+	
+	#aboutContainer{
+		position:relative;
+		z-index:1;
+	}
+
+	#aboutContainer .background:nth-child(1){
+		position: absolute;
+		z-index:-3;
+		background-image: url("img/svg/rectangle-5-copy-2.svg");
+		left:0px;
+		width: 942px;
+		height: 1165px;
+	} 
+
+	#aboutContainer  .background:nth-child(2){
+		position: absolute;
+		z-index:-1;
+		background-image: url("img/svg/rectangle-5-copy-3.svg");
+		right:0px;
+		width: 987px;
+		height: 1185px;
+	}
+	
+	
+	/* aboutContainerPart1 */
+	
+	#aboutContainerPart1 .background{
+		display:none;
+		
+	}
+	
+	/* aboutContainerPart3 */
+	
+	#aboutContainerPart3 .background{
+		display: none;
+		
+	}
+	
+	/* bottomBackground */
+	
+	#bottomBackground{
+		position: relative;
+		height: 700px;
+	}
+	
+	#bottomBackground .background:nth-child(1){
+		background-image: url("img/svg/path-2.svg");
+		background-repeat: no-repeat;
+		position: absolute;
+		bottom:0px;
+		left:10px;
+		width: 1133px;
+		height: 1254px;
+		transform: rotate(-90deg);
+		z-index:-4;
+	}
+	
+	#bottomBackground  .background:nth-child(2){
+		background-image: url("img/svg/path-2-copy.svg");
+		position: absolute;
+		bottom:0;
+		right:40px;
+		width: 695px;
+		height: 771px;
+		transform: rotate(90deg);
+		z-index:-4;
+	}
+	
+	/* "footerContainer */
+	
+	#footerContainerPart1{
+		width: 1200px;
+		margin: 97px auto;
+	}
+	
+	#footerContainerPart1 h3{
+		font-size: 24px;
+		font-weight: bold;
+	}
+	
+	#footerContainerPart1 h4{
+		font-size: 20px;
+	}
+	
+	#footerContainerPart1 p{
+		font-size: 16px;		
+	}
+	
+	#footerContainerPart1 .ovalNav{
+		width: 50%;
+		margin: 20px auto;
+	}
+	
+	#footerContainerPart1 .ovalNav span img{
+		width: 64px;
+		height: 64px;
+	}
+	
+	#footerContainerPart2{
+		background-color: var(--black);
+		border: 1px solid var(----greyish-brown);
+	}
+	
+	#footerContainerPart2 #main{
+		color: var(--white);
+		display: flex;
+		justify-content: space-around;
+		width: 1200px;
+		margin: 40px auto;
+	}
+
+	#footerContainerPart2 #main ul{
+		list-style-type: none;
+	}
+
+	#footerContainerPart2 #main ul li:not(:nth-child(1)){
+		font-family: Roboto;
+		font-size: 16px;
+		line-height: 1.38;
+	}
+	#footerContainerPart2 #main ul li:nth-child(1){
+		font-size: 18px;
+		font-weight: bold;
+		line-height: 1.22;
+		font-family: Roboto;
+	}
+
+	
+}
+
+/* @media screen and (min-width: 376px) and (max-width:768px){ */
+		/* header */
+	
+	/* #headerContainer{ */
+		/* flex-direction: row; */
+	/* } */
+
+	/* .companyName { */
+		/* font-size: 36px; */
+	/* } */
+
+
+	/* .menu { */
+	  /* display:none; */
+	/* } */
+	
+	/* homeContainer */
+	
+	/* .cryptoWorld{ */
+		/* font-size: 107px; */
+	/* } */
+
+/* } */
+
+@media screen and (max-width: 480px){
+	
+	/* header */
+	#headerContainer main{
+		margin: 24px 20px 29px 20px;
+		flex-direction: column;
+		height: 125px;		
+	}
+	
+	#headerContainer .background:nth-child(1){
+		display:none;
+	}
+	
+	#headerContainer .background:nth-child(2){
+		background-image: url("img/svg/group-4.svg");
+		top:0px;
+		left:0px;
+		width: 375px;
+		height: 214px;
+	}
+	
+	.companyName {
+		font-size: 30px;
+	}
+	
+	.sineUp {
+		align-self: center;
+	}
+	
+	#bodyContainer{
+		flex-direction:column;
+	}
+
+	#bodyContainer1{
+		display:none;
+	}
+	
+	/* homeContainer */
+	
+	#homeContainer{
+		margin: 0 20px;
+		position: relative;
+		z-index: 2;
+	}
+	
+	.cryptoWorld{
+		font-size: 60px;
+		margin-bottom:31px;
+	}
+	
+	.inputGroupSearch{
+		margin-bottom:35px;
+	}
+	
+	#homeContainer .paragraph{
+	  font-size:18px;
+	}
+	
+	/* pageNavContainer */
+	#pageNavContainer nav{
+		margin: 6px auto;
+		width:180px;
+		flex-direction: row-reverse;
+	}
+	
+	/* footer */
+	#footerContainerPart1 h3{
+		font-size: 48px;
+		font-weight: bold;	
+	}
+	
+	#footerContainerPart1 h4{
+		font-size: 36px;
+	}
+	
+	#footerContainerPart1 p{
+		font-size: 18px;		
+	}
+	
+	#footerContainerPart2 #main ul{
+		display: none;
+	}
+	
+	#footerContainerPart2 #main{
+		display: none;
+	}
+	
+	#footerContainerPart1 .ovalNav{
+		width: 80%;
+		margin: 20px auto;
+	}
+	
+	#footerContainerPart1 .ovalNav span img{
+		width: 37px;
+		height: 37px;
+	}
+
+}
+
+
+/* body */
+body{
+	background-color:var(--bluey-purple);
+	font-family: 'Roboto', sans-serif;
+	background-image: linear-gradient(var(--sapphire), var(--lavender-pink));
+	margin:0;
+	padding:0;
+}
+
+#bodyContainer{
+	display: flex;
+}
+
+#bodyContainer3{
+	position: relative;
+	z-index: 2;
+}
+	
+#bodyContainer1, #bodyContainer2, #bodyContainer3{
+}
+
+.Path-2-Copy-2 {
+  width: 695px;
+  height: 771px;
+  transform: rotate(-180deg);
+  background-image: linear-gradient(138deg, var(--sapphire), var(--lavender-pink));
+}
+
+/* header */
+
+#headerContainer main{
+	display: flex;
+	justify-content: space-between;
+	position:relative;
+	z-index:2;
+
+}
+
+#headerContainer main .headerSmallScreenContainer{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#headerContainer .background{
+	position: absolute;
+	z-index:-2;
+}
+
+.companyName {
+  /* width: 252px; */
+  /* height: 42px; */
+  /* font-family: Roboto; */
+  margin:0;
+  font-weight: bold;
+  /* font-style: normal; */
+  /* font-stretch: normal; */
+  /* line-height: normal; */
+  /* letter-spacing: normal; */
+  color: var(--white);
+}
+
+
+.menu {
+  width: 42px;
+  height: 32px;
+  object-fit: contain;
+}
+
+.sineUp {
+	width: 171px;
+	height: 42px;
+	border-radius: 41.5px;
+	/* width: 67px; */
+	/* height: 24px; */
+	font-family: Roboto;
+	font-size: 20px;
+	font-weight: normal;
+	/* font-style: normal; */
+	/* font-stretch: normal; */
+	/* line-height: normal; */
+	/* letter-spacing: normal; */
+	color: var(--white);
+	background-color: var(--azure);
+	border:0;
+}
+
+/* homeContainer*/
+
+#homeContainer{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+
+.cryptoWorld {
+	/* max-width:778px; */
+	/* width: 325px; */
+	/* height: 71px; */
+	font-family: Roboto;
+	font-weight: 100;
+	/* font-style: normal; */
+	/* font-stretch: normal; */
+	/* line-height: normal; */
+	/* letter-spacing: normal; */
+	color: var(--white);
+}
+
+.inputGroupSearch{
+	/* min-width: 310px; */
+	/* max-width: 1178px; */
+	width:calc(100% - 25px);
+	/* height: 50px; */
+	border-radius: 41.5px;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+	background-color: var(--white);
+	display: flex;
+	justify-content: space-between;
+	padding-left:25px;
+	
+}
+
+.inputGroupSearch input{
+	background-color: transparent;
+	border: none;
+	/* margin: 0; */
+	padding: 0;
+	width:80%;
+	font-size: 16px;
+	/* color: rgba(0,0,0,.87); */
+	/* word-wrap: break-word; */
+	/* outline: none; */
+	/* display: flex; */
+	/* flex: 100%; */
+	/* -webkit-tap-highlight-color: transparent; */
+	 /* margin-top: -37px;  */
+}
+
+.inputGroupSearch span{
+	background-image: url("img/svg/progress-bar-2.svg");
+	width: 61px; 
+	height: 50px;
+}
+.inputGroupSearch img{
+	width: 17.5px;
+	height: 17.5px;
+	margin: 16px 21px;
+}
+
+.Mask {
+  width: 17.5px;
+  height: 17.5px;
+  background-color: var(--white);
+}
+
+.paragraph {
+  /* width: 328px; */
+  /* height: 179px; */
+  font-family: Roboto;
+  /* font-size: 18px; */
+  text-align: center;
+}
+
+#homeContainer .paragraph{
+  color: var(--white);
+  width:90%;
+  /* font-size:24px; */
+}
+
+/* .ovalActive { */
+  /* width: 20px; */
+  /* height: 20px; */
+  /* object-fit: contain; */
+  /* background-color: var(--white); */
+/* } */
+
+   /* pageNavContainer */
+   
+#pageNavContainer nav{
+	display: flex;
+	justify-content: space-between;
+	/* margin: 6 auto; */
+}
+   
+#pageNavContainer nav .oval {
+  width: 20px;
+  height: 20px;
+  
+}
+
+/* aboutContainer */
+
+/* #aboutContainerPart1 main, #aboutContainerPart3 main{ */
+	/* position:relative; */
+	/* z-index:2; */
+/* } */
+
+/* #aboutContainerPart1 .background{ */
+	/* position: absolute; */
+	/* z-index:-3; */
+/* }  */
+
+/* #aboutContainerPart3  .background{ */
+	/* position: absolute; */
+	/* z-index:-1; */
+/* } */
+
+#aboutContainerPart1 .title, #aboutContainerPart3 .title{
+  color: var(--azure);
+}
+
+
+section ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.Oval-3-Copy-4 {
+  width: 25px;
+  height: 25px;
+  /* background-color: var(--azure); */
+}
+
+.paragraph-Copy-5 {
+  width: 258px;
+  height: 43px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--greyish-brown);
+  overflow:hidden;
+}
+
+/* footerContainer */
+
+#footerContainer{
+	width: 100%;
+	background-color: var(--bluey-purple);
+	margin-top: -600px;
+	position: absolute;
+	z-index:1;
+}
+
+#footerContainerPart1 .paragraph, #footerContainerPart1 .title{
+	color: var(--white);
+	text-align: center;
+}
+
+#footerContainerPart1 .ovalNav{
+	display: flex;
+	justify-content: space-around;
+}
+
+#footerContainerPart1 .ovalNav span{
+	font-family: Roboto;
+	font-size: 16px;
+	text-align: center;
+	color: var(--white);
+}
+
+#footerContainerPart1 .ovalNav span img{
+}
+
+#footerContainerPart2 footer {
+  width: 322px;
+  height: 22px;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 1.57;
+  color: var(--white);
+  margin: 14px auto;
+  font-weight: 500;
+}
+
+#footerContainerPart2 footer .text-style-1 {
+	text-align: center;
+}
+
+
